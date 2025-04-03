@@ -1,0 +1,1 @@
+clang++ src/main.cpp src/core/executor.cpp src/core/runtime.cpp src/android/api.cpp src/android/activity.cpp src/graphics/renderer.cpp -o anexec -std=c++17 -lzip -ldl -lGLESv2 -lEGL -O3
